@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stockmanagerev02.controller.DashboardForm">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="236.0" layoutY="14.0" text="Dashboard">
@@ -13,8 +12,8 @@
             <Font name="Berlin Sans FB" size="28.0" />
          </font>
       </Label>
-      <Button layoutX="61.0" layoutY="131.0" mnemonicParsing="false" text="Customer" />
-      <Button layoutX="274.0" layoutY="131.0" mnemonicParsing="false" text="Item" />
-      <Button layoutX="476.0" layoutY="131.0" mnemonicParsing="false" text="Supplier" />
+      <Button layoutX="47.0" layoutY="118.0" mnemonicParsing="false" onAction="#customerBtnClicked" prefHeight="50.0" prefWidth="103.0" style="-fx-background-color: #E6EE9C;" text="Customer" />
+      <Button layoutX="248.0" layoutY="118.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="103.0" style="-fx-background-color: #E6EE9C;" text="Item" />
+      <Button layoutX="452.0" layoutY="118.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="103.0" style="-fx-background-color: #E6EE9C;" text="Supplier" />
    </children>
 </AnchorPane>
